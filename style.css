@@ -8,20 +8,18 @@ body {
   padding: 40px;
   background: #eae2b7;
 }
-nav {
+#nav {
   text-align: center;
   line-height: 25px;
+  padding: 3%;
 }
 /* Set the font family for any h1, h2, or h3 heading */
 h1 {
   font-family: "Playfair Display", Times, serif;
-  font-style: bold;
-  font-weight:800px;
   letter-spacing:1px;
   line-height:10px;
   text-align: center;
   text-decoration: underline;
-  text-transform: normal;
 }
 h2 {
   font-family: "Playfair Display", Times, serif;
@@ -46,7 +44,7 @@ p {
 /* The div container constrains the content width within the main container to 600px */
 div {
   margin: auto;
-  width: 600px
+  width: 600px;
   text-align:center;
 }
 
@@ -63,17 +61,29 @@ hr {
 /* Add your solution below */
 
 .image-circle {
-  border-radius: 50%;
-  color: #003049;
+  border-color: #003049;
+  border-radius:50%;
+  border-width:2px;
   text-align: center;
 }
-a {
+a {color:#d62828;
+  margin: 1%;
   font-family:"Source Sans Pro", sans-serif;
 }
 
-a:link {color:#d62828;}
-a:visited {color:#d62828}
 a:hover {color:#f77f00;}
-#nav {color:#d62828;}
 
 footer > p {text-align: center;}
+
+section {
+  margin-bottom:10%;
+  margin-top:10%;
+}
+
+ol{
+      text-align: start;
+}
+
+ul {
+      text-align: start;
+}
